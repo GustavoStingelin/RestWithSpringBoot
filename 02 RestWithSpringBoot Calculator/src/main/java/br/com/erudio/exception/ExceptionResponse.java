@@ -1,21 +1,21 @@
-package br.com.stingelin.exception;
+package br.com.erudio.exception;
 
 import java.io.Serializable;
 import java.util.Date;
 
-public class ExceptionResponse implements Serializable{
+public class ExceptionResponse implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-
+	
 	private Date timestamp;
 	private String message;
-	private String detail;
+	private String details;
 	
-	public ExceptionResponse(Date timestamp, String message, String detail) {
+	public ExceptionResponse(Date timestamp, String message, String details) {
 		super();
 		this.timestamp = timestamp;
 		this.message = message;
-		this.detail = detail;
+		this.details = details;
 	}
 
 	public Date getTimestamp() {
@@ -26,7 +26,8 @@ public class ExceptionResponse implements Serializable{
 		return message;
 	}
 
-	public String getDetail() {
-		return detail;
+	public String getDetails() {
+		return details;
 	}
+	
 }
