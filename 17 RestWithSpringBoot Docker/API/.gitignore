@@ -8,4 +8,5 @@
 /build/
 /.jar
 /.class
-/UploadDir/
+/.idea/
+/.vscode/
