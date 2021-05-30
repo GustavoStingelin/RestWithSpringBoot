@@ -108,9 +108,9 @@
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-maven-plugin</artifactId>
                 <configuration>
-                    <url>jdbc:mysql://localhost:3306/rest_with_spring_boot?useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true</url>
-                    <user>root</user>
-                    <password>1234</password>
+                    <url>jdbc:mysql://db-cebreja-production.cstmbw1g9vpd.sa-east-1.rds.amazonaws.com:3306/rest_with_spring_boot?useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true</url>
+                    <user>admin</user>
+                    <password>2Nv4UP0m1!hM_3ukXDTkgAaBBs4S</password>
                 </configuration>
                 <dependencies>
                     <dependency>

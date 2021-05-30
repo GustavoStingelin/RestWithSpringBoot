@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>rest-with-springboot</name>
+	<name>rest-with-springboot-udemy</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1622396045251</id>
+			<id>1622396045263</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
