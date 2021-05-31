@@ -15,7 +15,7 @@ services:
         networks: 
             - springboot-network
     api:
-        image: gustavostingelin/api-rest-with-springboot
+        image: api-rest-with-springboot
         restart: always
         build: ./API
         working_dir: /API
