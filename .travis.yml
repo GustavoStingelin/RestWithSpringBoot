@@ -17,8 +17,8 @@ before_install:
 script:
     - echo "Ok Here we GO!"
     - docker-compose build
-before_deploy:
-    - echo "${DOCKER_PASSWORD}" | docker login --username "${DOCKER_USERNAME}" --password-stdin
+#before_deploy:
+#    - echo "${DOCKER_PASSWORD}" | docker login --username "${DOCKER_USERNAME}" --password-stdin
 deploy:
     provider: script
     script:
